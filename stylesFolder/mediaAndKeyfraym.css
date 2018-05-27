@@ -79,7 +79,7 @@ header span:nth-child(11) {
     animation-delay: 5.5s;
 }
 
-@media only screen and (max-width:320px){
+@media only screen and (max-width:400px){
     .menu_Flex{
         height: 15em;
         width:  15em;
@@ -94,7 +94,7 @@ header span:nth-child(11) {
     }
 }
 
-@media only screen and (min-width:321px) and (max-width:768px){
+@media only screen and (min-width:401px) and (max-width:768px){
     .menu_Flex{
         height: 25em;
         width:  25em;
