@@ -1,0 +1,53 @@
+.for_flex {
+    display: flex;
+    width: 1000px;
+    height: 1000px;
+    background-color: #00acee;
+    justify-content: center;/*выравнивание вдоль главной оси*/
+    align-content: stretch;
+    align-items: stretch;/*вырагивание вдоль поперечной оси*/
+    flex-wrap: wrap;/*перенос*/
+    flex-direction: row;
+    margin: 40px;
+
+
+}
+.col {
+    border: solid black 2px;
+
+    color:white;
+    height: 80px;
+    width: 80px;
+    flex-shrink: 0;
+    margin:0.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.menu_Flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30em;
+    width:  30em;
+
+
+
+    background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
+    margin: 0 auto;
+}
+.footer_flex_left{
+    display: inline-flex;
+    margin-top: 1em;
+}
+.footer_flex{
+    display:flex;
+    justify-content: space-between ;
+}
+
+footer div.mail_to{
+    display:flex;
+    align-items: center;
+}

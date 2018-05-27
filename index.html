@@ -4,24 +4,46 @@
     <meta charset="UTF-8">
     <title>BattleShip</title>
 
-
-    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
-
-    <link rel="mask-icon" href="images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <link rel="mask-icon" href="images/fsafari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#000000">
     <meta name="theme-color" content="#ffffff">
-
-
-    <link rel="stylesheet" href="stylesFolder/styles.css">
+    <link rel="stylesheet" href="stylesFolder/elements.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <script src="jsFolder/logic.js"></script>
     <script src="jsFolder/DOM.code.js"></script>
     <script src="jsFolder/jquery-3.3.1.js"></script>
 </head>
 <body>
 <main>
-
+    <menu class="menu_Flex">
+        <header  class="logo">
+            B<span>a</span><span>t</span><span>t</span><span>l</span><span class="es_keyframe">e</span><span class="es_keyframe">S</span><span class="es_keyframe"><sub>5</sub></span><span>h</span><span>i</span><span>p</span>
+        </header>
+        <input type="button" value="Play" id="play"/>
+        <input type="button" value="Settings" id="settings"/>
+        <input type="button" value="DONATE" id="donate">
+    </menu>
 </main>
+<footer class="footer_flex">
+    <div class="footer_flex_left">
+        <div class="social linkedin">
+            <a href="#" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
+        </div>
+        <div class="social facebook">
+            <a href="#" target="_blank"><i class="fa fa-facebook fa-2x"></i></a>
+        </div>
+        <div class="social github">
+            <a href="#" target="_blank"><i class="fa fa-github fa-2x"></i></a>
+        </div>
+        <div class="social google-pluse">
+            <a href="#" target="_blank"><i class="fa fa-google-plus fa-2x"></i></a>
+        </div>
+    </div>
+    <div class="mail_to"><a href="mailto:1844zaratustra@gmail.com">Write to us</a></div>
+</footer>
 </body>
 </html>

@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Marcellus');
+@import url('https://fonts.googleapis.com/css?family=Luckiest+Guy');
+@import url('flex.css');
+@import url('feedback.css');
+@import url('mediaAndKeyfraym.css');
+
+body {
+    font-family: 'Marcellus', serif;
+    background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
+}
+
+menu #play,
+menu #settings {
+    font-size: 1.2em;
+    font-weight: 900;
+    color: whitesmoke;
+    background-color: transparent;
+    border-color: transparent;
+    margin: 0 2em 0 0em ;
+}
+
+menu #play:hover,
+menu #settings:hover {
+    cursor: pointer;
+    border-bottom: solid 0.1em rgba(191, 195, 34, 1);
+
+
+}
+
+menu #donate {
+    background: radial-gradient(circle, rgba(191, 195, 34, 1) 40%, rgba(234, 253, 45, 0.9051820557324493) 100%);
+    font-weight: 900;
+    width: 20em;
+    height: 5em;
+    animation-name: donate_animation;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    margin: 1em 2em 1em -1em ;
+    cursor: pointer;
+    box-shadow: 0 0.2em 0.2em whitesmoke, inset 0 0 5em rgba(0, 0, 0, 0.1);
+    color: #000851;
+}
+
+
+menu header.logo {
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 3em;
+    text-align: center;
+    margin: 0 0.85em 0.5em 0;
+}
+
+menu header.logo:first-letter {
+    font-size: 1.2em;
+
+}
+
+header span {
+    animation-name: logo_animation;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+footer div.mail_to a{
+    color:whitesmoke;
+    text-decoration-line: none ;
+    font-weight: 800;
+}
+footer div.mail_to a:hover{
+    color: rgba(191, 195, 34, 1);
+
+}
+
