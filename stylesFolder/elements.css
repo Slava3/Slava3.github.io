@@ -6,7 +6,8 @@
 
 body {
     font-family: 'Marcellus', serif;
-    background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
+    background: linear-gradient(90deg, #1cb5e0 0%, #000851 100%);
+    overflow: hidden;
 }
 
 menu #play,
@@ -16,14 +17,13 @@ menu #settings {
     color: whitesmoke;
     background-color: transparent;
     border-color: transparent;
-    margin: 0 2em 0 0em ;
+    margin: 0 2em 0 0;
 }
 
 menu #play:hover,
 menu #settings:hover {
     cursor: pointer;
     border-bottom: solid 0.1em rgba(191, 195, 34, 1);
-
 
 }
 
@@ -35,12 +35,11 @@ menu #donate {
     animation-name: donate_animation;
     animation-duration: 1s;
     animation-iteration-count: infinite;
-    margin: 1em 2em 1em -1em ;
+    margin: 1em 2em 1em -1em;
     cursor: pointer;
     box-shadow: 0 0.2em 0.2em whitesmoke, inset 0 0 5em rgba(0, 0, 0, 0.1);
     color: #000851;
 }
-
 
 menu header.logo {
     font-family: 'Luckiest Guy', cursive;
@@ -60,12 +59,36 @@ header span {
     animation-iteration-count: infinite;
 }
 
-footer div.mail_to a{
-    color:whitesmoke;
-    text-decoration-line: none ;
+footer div.mail_to a {
+    color: whitesmoke;
+    text-decoration-line: none;
     font-weight: 800;
 }
-footer div.mail_to a:hover{
-    color: rgba(191, 195, 34, 1);
 
+footer div.mail_to a:hover {
+    color: rgba(191, 195, 34, 1);
+}
+
+ .boat_animation {
+    animation-name: boatAnimation;
+animation-duration: 40s;
+    animation-iteration-count: infinite;
+     animation-timing-function: linear;
+     width:100%;
+     display: flex;
+     align-items: flex-start;
+     justify-content: flex-end;
+
+}
+ @keyframes boatAnimation {
+     0%{transform: translateX(75%); }
+     100%{transform: translateX(-100%);}
+ }
+.text_for_boat{
+    color:whitesmoke;
+    font-size: 1.8em;
+    margin: 0;
+    background: transparent;
+    border: dotted 0.1em #1CB5E0 ;
+    padding: 0 0.2em 0 0.2em;
 }
