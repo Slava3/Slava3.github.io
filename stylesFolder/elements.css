@@ -4,7 +4,7 @@
 @import url('feedback.css');
 @import url('mediaAndKeyfraym.css');
 
-body {
+html,body {
     font-family: 'Marcellus', serif;
     background: linear-gradient(90deg, #1cb5e0 0%, #000851 100%);
     overflow: hidden;
@@ -71,7 +71,7 @@ footer div.mail_to a:hover {
 
  .boat_animation {
     animation-name: boatAnimation;
-animation-duration: 40s;
+animation-duration: 25s;
     animation-iteration-count: infinite;
      animation-timing-function: linear;
      width:100%;
@@ -80,10 +80,7 @@ animation-duration: 40s;
      justify-content: flex-end;
 
 }
- @keyframes boatAnimation {
-     0%{transform: translateX(75%); }
-     100%{transform: translateX(-100%);}
- }
+
 .text_for_boat{
     color:whitesmoke;
     font-size: 1.8em;
@@ -91,4 +88,5 @@ animation-duration: 40s;
     background: transparent;
     border: dotted 0.1em #1CB5E0 ;
     padding: 0 0.2em 0 0.2em;
+    white-space: nowrap;
 }
