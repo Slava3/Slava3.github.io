@@ -1,3 +1,4 @@
+/*подмигивание кнопки DONATE*/
 @keyframes donate_animation {
     from {
 
@@ -9,7 +10,12 @@
 
     }
 }
-
+      /*плывущая лодка*/
+@keyframes boatAnimation {
+    0%{transform: translateX(250%); }
+    100%{transform: translateX(-100%);}
+}
+/*плавающие буквы HEADER*/
 @keyframes logo_animation {
     0% {
 
@@ -84,9 +90,7 @@ header span:nth-child(11) {
         height: 15em;
         width:  15em;
     }
-    body{
-        min-width: 300px;
-    }
+
     .footer_flex{
         flex-direction: column;
         justify-content: center;
@@ -98,8 +102,8 @@ header span:nth-child(11) {
 
 @media only screen and (min-width:451px) and (max-width:768px){
     .menu_Flex{
-        height: 25em;
-        width:  25em;
+        height: 20em;
+        width:  20em;
     }
     .footer_flex{
         flex-direction: column;
