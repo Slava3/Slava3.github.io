@@ -87,8 +87,8 @@ header span:nth-child(11) {
 
 @media only screen and (max-width:450px){
     .menu_Flex{
-        height: 15em;
-        width:  15em;
+        height: 100%;
+        width:  70%;
     }
 
     .footer_flex{
@@ -96,20 +96,29 @@ header span:nth-child(11) {
         justify-content: center;
         align-items: center;
         margin-left: 0.5em;
+    }
+    figure{
+        display: none;
     }
 
 }
 
 @media only screen and (min-width:451px) and (max-width:768px){
     .menu_Flex{
-        height: 20em;
-        width:  20em;
+        height: 100%;
+        width:  50%;
     }
     .footer_flex{
-        flex-direction: column;
-        justify-content: center;
+        flex-direction: row;
+        justify-content: space-around;
         align-items: center;
         margin-left: 0.5em;
+    }
+    figure{
+        display: none;
+    }
+    menu #donate{
+        width: 15em;
     }
 }
 

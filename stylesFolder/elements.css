@@ -8,6 +8,7 @@ html,body {
     font-family: 'Marcellus', serif;
     background: linear-gradient(90deg, #1cb5e0 0%, #000851 100%);
     overflow: hidden;
+    min-width: 290px;
 }
 
 menu #play,
@@ -30,7 +31,7 @@ menu #settings:hover {
 menu #donate {
     background: radial-gradient(circle, rgba(191, 195, 34, 1) 40%, rgba(234, 253, 45, 0.9051820557324493) 100%);
     font-weight: 900;
-    width: 20em;
+    width: 15em;
     height: 5em;
     animation-name: donate_animation;
     animation-duration: 1s;
