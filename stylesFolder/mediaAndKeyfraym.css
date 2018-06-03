@@ -108,7 +108,7 @@ header span:nth-child(11) {
 
 @media only screen and (min-width:451px) and (max-width:768px){
     body {
-        margin-top: calc( 50vh - 10em)!important;
+        margin-top: calc( 50vh - 9.5em)!important;
     }
     .menu_Flex{
         height: 90%;
